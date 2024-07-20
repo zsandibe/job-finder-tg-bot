@@ -1,0 +1,9 @@
+DROP INDEX IF EXISTS idx_user_id;
+DROP INDEX IF EXISTS idx_seeker_id;
+DROP INDEX IF EXISTS idx_company_id;
+DROP INDEX IF EXISTS idx_post_id;
+
+DROP TABLE IF EXISTS users;
+DROP TABLE IS EXISTS job_seekers;
+DROP TABLE IS EXISTS companies;
+DROP TABLE IF EXISTS job_posts;
